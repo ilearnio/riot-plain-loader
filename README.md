@@ -7,7 +7,8 @@ It does two things:
  1. Minifies HTML right inside of plain-JS tags
  2. Fixes all of the HTML [limitations](http://riotjs.com/api/#example) when working with `riot.tag()`, since your HTML starts to act like if it's a `.tag` file.
 
-This is just a wrapper around [riot-plain-htmlmin](https://github.com/ilearnio/riot-plain-htmlmin) package. Check it out for more information
+
+This package is just a wrapper around [riot-plain-htmlmin](https://github.com/ilearnio/riot-plain-htmlmin) package. Check it out for more information.
 
 ## Usage
 
@@ -18,7 +19,7 @@ module.exports = {
   module: {
     preLoaders: [
       {
-        test: /\.riot$/,
+        test: /\.riot$/, // put your custom Riot extension here
         exclude: /node_modules/,
         loader: 'riot-plain',
         query: {
