@@ -1,7 +1,7 @@
 {
   "name": "riot-plain-loader",
   "description": "A loader for WebPack which minifies HTML right inside of plain-JS Riot tags.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Nikita Gavrilov",
     "email": "artnikpro@gmail.com"
@@ -32,6 +32,6 @@
     "url": "git+https://github.com/ilearnio/riot-plain-loader.git"
   },
   "dependencies": {
-    "riot-plain-htmlmin": "^0.0.1"
+    "riot-plain-htmlmin": "^0.0.2"
   }
 }

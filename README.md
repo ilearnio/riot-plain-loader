@@ -1,9 +1,13 @@
 # riot-plain-loader
 [![NPM Version][npm-image]][npm-url]
 
-A loader for WebPack which minifies HTML right inside of plain-JS [Riot](http://riotjs.com) tags.
+A loader for WebPack for plain-JS [Riot](http://riotjs.com) tags.
 
-This is just a wrapper around [riot-plain-htmlmin](https://github.com/ilearnio/riot-plain-htmlmin) package.
+It does two things:
+ 1. Minifies HTML right inside of plain-JS tags
+ 2. Fixes all of the HTML [limitations](http://riotjs.com/api/#example) when working with `riot.tag()`, since your HTML starts to act like if it's a `.tag` file.
+
+This is just a wrapper around [riot-plain-htmlmin](https://github.com/ilearnio/riot-plain-htmlmin) package. Check it out for more information
 
 ## Usage
 
